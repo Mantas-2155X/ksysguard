@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE KSysGuardWorkSheet>
+<WorkSheet locked="0" columns="2" interval="0.5" rows="2" title="CPU">
+ <host command="ksysguardd" shell="" name="localhost" port="-1"/>
+ <display autoRange="1" vLines="0" labels="1" columnSpan="1" fontSize="8" showUnit="0" class="FancyPlotter" row="0" version="1" title="Voltage" vDistance="30" hLines="1" unit="" stacked="0" manualRange="0" hScale="6" rowSpan="1" vScroll="0" column="0" svgBackground="">
+  <beam sensorType="float" hostName="localhost" color="0xff0057ae" sensorName="lmsensors/zenpower-pci-00c3/SVI2_Core"/>
+  <beam sensorType="float" hostName="localhost" color="0xffe20800" sensorName="lmsensors/zenpower-pci-00c3/SVI2_SoC"/>
+ </display>
+ <display autoRange="1" vLines="0" labels="1" columnSpan="1" fontSize="8" showUnit="0" class="FancyPlotter" row="0" version="1" title="Current" vDistance="30" hLines="1" unit="" stacked="0" manualRange="0" hScale="6" rowSpan="1" vScroll="0" column="1" svgBackground="">
+  <beam sensorType="float" hostName="localhost" color="0xff0057ae" sensorName="lmsensors/zenpower-pci-00c3/SVI2_C_Core"/>
+  <beam sensorType="float" hostName="localhost" color="0xffe20800" sensorName="lmsensors/zenpower-pci-00c3/SVI2_C_SoC"/>
+ </display>
+ <display autoRange="1" vLines="0" labels="1" columnSpan="1" fontSize="8" showUnit="0" class="FancyPlotter" row="1" version="1" title="Temperature" vDistance="30" hLines="1" unit="" stacked="0" manualRange="0" hScale="6" rowSpan="1" vScroll="0" column="1" svgBackground="">
+  <beam sensorType="float" hostName="localhost" color="0xff0057ae" sensorName="lmsensors/zenpower-pci-00c3/Tdie"/>
+  <beam sensorType="float" hostName="localhost" color="0xffe20800" sensorName="lmsensors/zenpower-pci-00c3/Tctl"/>
+  <beam sensorType="float" hostName="localhost" color="0xfff3c300" sensorName="lmsensors/zenpower-pci-00c3/Tccd1"/>
+  <beam sensorType="float" hostName="localhost" color="0xffff0000" sensorName="lmsensors/zenpower-pci-00c3/Tccd2"/>
+ </display>
+ <display autoRange="1" vLines="0" labels="1" columnSpan="1" fontSize="8" showUnit="0" class="FancyPlotter" row="1" version="1" title="Power" vDistance="30" hLines="1" unit="" stacked="0" manualRange="0" hScale="6" rowSpan="1" vScroll="0" column="0" svgBackground="">
+  <beam sensorType="float" hostName="localhost" color="0xff0057ae" sensorName="lmsensors/zenpower-pci-00c3/SVI2_P_Core"/>
+  <beam sensorType="float" hostName="localhost" color="0xffe20800" sensorName="lmsensors/zenpower-pci-00c3/SVI2_P_SoC"/>
+ </display>
+</WorkSheet>

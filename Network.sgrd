@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE KSysGuardWorkSheet>
+<WorkSheet rows="3" columns="2" interval="0.5" title="Network" locked="0">
+ <host name="localhost" port="-1" command="ksysguardd" shell=""/>
+ <display unit="" rowSpan="1" manualRange="0" hScale="6" showUnit="0" stacked="0" row="0" labels="1" vDistance="30" autoRange="1" title="Data Rate (enp34s0)" svgBackground="" class="FancyPlotter" vScroll="0" fontSize="8" column="0" columnSpan="1" version="1" vLines="0" hLines="1">
+  <beam hostName="localhost" sensorType="float" sensorName="network/interfaces/enp34s0/receiver/data" color="0xff0057ae"/>
+  <beam hostName="localhost" sensorType="float" sensorName="network/interfaces/enp34s0/transmitter/data" color="0xffe20800"/>
+ </display>
+ <display unit="" rowSpan="1" manualRange="0" hScale="6" showUnit="0" stacked="0" row="0" labels="1" vDistance="30" autoRange="1" title="Data Rate (wg-mullvad)" svgBackground="" class="FancyPlotter" vScroll="0" fontSize="8" column="1" columnSpan="1" version="1" vLines="0" hLines="1">
+  <beam hostName="localhost" sensorType="float" sensorName="network/interfaces/wg-mullvad/receiver/data" color="0xff0057ae"/>
+  <beam hostName="localhost" sensorType="float" sensorName="network/interfaces/wg-mullvad/transmitter/data" color="0xffe20800"/>
+ </display>
+ <display unit="" rowSpan="1" manualRange="0" hScale="6" showUnit="0" stacked="0" row="1" labels="1" vDistance="30" autoRange="1" title="Packet rate (enp34s0)" svgBackground="" class="FancyPlotter" vScroll="0" fontSize="8" column="0" columnSpan="1" version="1" vLines="0" hLines="1">
+  <beam hostName="localhost" sensorType="float" sensorName="network/interfaces/enp34s0/receiver/packets" color="0xff0057ae"/>
+  <beam hostName="localhost" sensorType="float" sensorName="network/interfaces/enp34s0/transmitter/packets" color="0xffe20800"/>
+ </display>
+ <display unit="" rowSpan="1" manualRange="0" hScale="6" showUnit="0" stacked="0" row="1" labels="1" vDistance="30" autoRange="1" title="Packet Rate (wg-mullvad)" svgBackground="" class="FancyPlotter" vScroll="0" fontSize="8" column="1" columnSpan="1" version="1" vLines="0" hLines="1">
+  <beam hostName="localhost" sensorType="float" sensorName="network/interfaces/wg-mullvad/receiver/packets" color="0xff0057ae"/>
+  <beam hostName="localhost" sensorType="float" sensorName="network/interfaces/wg-mullvad/transmitter/packets" color="0xffe20800"/>
+ </display>
+ <display unit="" rowSpan="1" manualRange="0" hScale="6" showUnit="0" stacked="0" row="2" labels="1" vDistance="30" autoRange="1" title="Data (enp34s0)" svgBackground="" class="FancyPlotter" vScroll="0" fontSize="8" column="0" columnSpan="1" version="1" vLines="0" hLines="1">
+  <beam hostName="localhost" sensorType="float" sensorName="network/interfaces/enp34s0/receiver/dataTotal" color="0xff0057ae"/>
+  <beam hostName="localhost" sensorType="float" sensorName="network/interfaces/enp34s0/transmitter/dataTotal" color="0xffe20800"/>
+ </display>
+ <display unit="" rowSpan="1" manualRange="0" hScale="6" showUnit="0" stacked="0" row="2" labels="1" vDistance="30" autoRange="1" title="Data (wg-mullvad)" svgBackground="" class="FancyPlotter" vScroll="0" fontSize="8" column="1" columnSpan="1" version="1" vLines="0" hLines="1">
+  <beam hostName="localhost" sensorType="float" sensorName="network/interfaces/wg-mullvad/receiver/dataTotal" color="0xff0057ae"/>
+  <beam hostName="localhost" sensorType="float" sensorName="network/interfaces/wg-mullvad/transmitter/dataTotal" color="0xffe20800"/>
+ </display>
+</WorkSheet>

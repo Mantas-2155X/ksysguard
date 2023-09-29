@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE KSysGuardWorkSheet>
+<WorkSheet rows="4" columns="2" interval="0.5" title="Disk" locked="0">
+ <host name="localhost" port="-1" command="ksysguardd" shell=""/>
+ <display unit="" rowSpan="1" manualRange="0" hScale="6" showUnit="0" stacked="0" row="0" labels="1" vDistance="30" autoRange="1" title="Data Rate (sda)" svgBackground="" class="FancyPlotter" vScroll="0" fontSize="8" column="0" columnSpan="1" version="1" vLines="0" hLines="1">
+  <beam hostName="localhost" sensorType="float" sensorName="disk/sda_(8:0)/Rate/rblk" color="0xff0057ae"/>
+  <beam hostName="localhost" sensorType="float" sensorName="disk/sda_(8:0)/Rate/wblk" color="0xffe20800"/>
+ </display>
+ <display unit="" rowSpan="1" manualRange="0" hScale="6" showUnit="0" stacked="0" row="1" labels="1" vDistance="30" autoRange="1" title="Data Rate (sdb)" svgBackground="" class="FancyPlotter" vScroll="0" fontSize="8" column="0" columnSpan="1" version="1" vLines="0" hLines="1">
+  <beam hostName="localhost" sensorType="float" sensorName="disk/sdb_(8:16)/Rate/rblk" color="0xff0057ae"/>
+  <beam hostName="localhost" sensorType="float" sensorName="disk/sdb_(8:16)/Rate/wblk" color="0xffe20800"/>
+ </display>
+ <display unit="" rowSpan="1" manualRange="0" hScale="6" showUnit="0" stacked="0" row="2" labels="1" vDistance="30" autoRange="1" title="Data Rate (sdc)" svgBackground="" class="FancyPlotter" vScroll="0" fontSize="8" column="0" columnSpan="1" version="1" vLines="0" hLines="1">
+  <beam hostName="localhost" sensorType="float" sensorName="disk/sdc_(8:32)/Rate/rblk" color="0xff0057ae"/>
+  <beam hostName="localhost" sensorType="float" sensorName="disk/sdc_(8:32)/Rate/wblk" color="0xffe20800"/>
+ </display>
+ <display unit="" rowSpan="1" manualRange="0" hScale="6" showUnit="0" stacked="0" row="2" labels="1" vDistance="30" autoRange="1" title="Access (sdc)" svgBackground="" class="FancyPlotter" vScroll="0" fontSize="8" column="1" columnSpan="1" version="1" vLines="0" hLines="1">
+  <beam hostName="localhost" sensorType="float" sensorName="disk/sdc_(8:32)/Rate/rio" color="0xff0057ae"/>
+  <beam hostName="localhost" sensorType="float" sensorName="disk/sdc_(8:32)/Rate/wio" color="0xffe20800"/>
+ </display>
+ <display unit="" rowSpan="1" manualRange="0" hScale="6" showUnit="0" stacked="0" row="1" labels="1" vDistance="30" autoRange="1" title="Access (sdb)" svgBackground="" class="FancyPlotter" vScroll="0" fontSize="8" column="1" columnSpan="1" version="1" vLines="0" hLines="1">
+  <beam hostName="localhost" sensorType="float" sensorName="disk/sdb_(8:16)/Rate/rio" color="0xff0057ae"/>
+  <beam hostName="localhost" sensorType="float" sensorName="disk/sdb_(8:16)/Rate/wio" color="0xffe20800"/>
+ </display>
+ <display unit="" rowSpan="1" manualRange="0" hScale="6" showUnit="0" stacked="0" row="0" labels="1" vDistance="30" autoRange="1" title="Access (sda)" svgBackground="" class="FancyPlotter" vScroll="0" fontSize="8" column="1" columnSpan="1" version="1" vLines="0" hLines="1">
+  <beam hostName="localhost" sensorType="float" sensorName="disk/sda_(8:0)/Rate/rio" color="0xff0057ae"/>
+  <beam hostName="localhost" sensorType="float" sensorName="disk/sda_(8:0)/Rate/wio" color="0xffe20800"/>
+ </display>
+ <display unit="" rowSpan="1" manualRange="0" hScale="6" showUnit="0" stacked="0" row="3" labels="1" vDistance="30" autoRange="1" title="Data Rate (nvme)" svgBackground="" class="FancyPlotter" vScroll="0" fontSize="8" column="0" columnSpan="1" version="1" vLines="0" hLines="1">
+  <beam hostName="localhost" sensorType="float" sensorName="disk/nvme0n1_(259:0)/Rate/rblk" color="0xff0057ae"/>
+  <beam hostName="localhost" sensorType="float" sensorName="disk/nvme0n1_(259:0)/Rate/wblk" color="0xffe20800"/>
+ </display>
+ <display unit="" rowSpan="1" manualRange="0" hScale="6" showUnit="0" stacked="0" row="3" labels="1" vDistance="30" autoRange="1" title="Access (nvme)" svgBackground="" class="FancyPlotter" vScroll="0" fontSize="8" column="1" columnSpan="1" version="1" vLines="0" hLines="1">
+  <beam hostName="localhost" sensorType="float" sensorName="disk/nvme0n1_(259:0)/Rate/rio" color="0xff0057ae"/>
+  <beam hostName="localhost" sensorType="float" sensorName="disk/nvme0n1_(259:0)/Rate/wio" color="0xffe20800"/>
+ </display>
+</WorkSheet>

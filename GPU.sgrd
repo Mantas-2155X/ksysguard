@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE KSysGuardWorkSheet>
+<WorkSheet interval="0.5" columns="2" title="GPU" rows="2" locked="0">
+ <host shell="" port="-1" command="ksysguardd" name="localhost"/>
+ <display title="Voltage" autoRange="1" rowSpan="1" vLines="0" fontSize="8" manualRange="0" svgBackground="" columnSpan="1" showUnit="0" class="FancyPlotter" vScroll="0" unit="" column="0" hLines="1" version="1" labels="1" row="0" hScale="6" stacked="0" vDistance="30">
+  <beam sensorName="lmsensors/amdgpu-pci-2800/vddgfx" sensorType="float" color="0xff0057ae" hostName="localhost"/>
+ </display>
+ <display title="Power" autoRange="1" rowSpan="1" vLines="0" fontSize="8" manualRange="0" svgBackground="" columnSpan="1" showUnit="0" class="FancyPlotter" vScroll="0" unit="" column="0" hLines="1" version="1" labels="1" row="1" hScale="6" stacked="0" vDistance="30">
+  <beam sensorName="lmsensors/amdgpu-pci-2800/PPT" sensorType="float" color="0xff0057ae" hostName="localhost"/>
+ </display>
+ <display title="Fan" autoRange="1" rowSpan="1" vLines="0" fontSize="8" manualRange="0" svgBackground="" columnSpan="1" showUnit="0" class="FancyPlotter" vScroll="0" unit="" column="1" hLines="1" version="1" labels="1" row="0" hScale="6" stacked="0" vDistance="30">
+  <beam sensorName="lmsensors/amdgpu-pci-2800/fan1" sensorType="float" color="0xff0057ae" hostName="localhost"/>
+ </display>
+ <display title="Temperature" autoRange="1" rowSpan="1" vLines="0" fontSize="8" manualRange="0" svgBackground="" columnSpan="1" showUnit="0" class="FancyPlotter" vScroll="0" unit="" column="1" hLines="1" version="1" labels="1" row="1" hScale="6" stacked="0" vDistance="30">
+  <beam sensorName="lmsensors/amdgpu-pci-2800/edge" sensorType="float" color="0xff0057ae" hostName="localhost"/>
+  <beam sensorName="lmsensors/amdgpu-pci-2800/junction" sensorType="float" color="0xffe20800" hostName="localhost"/>
+  <beam sensorName="lmsensors/amdgpu-pci-2800/mem" sensorType="float" color="0xfff3c300" hostName="localhost"/>
+ </display>
+</WorkSheet>
